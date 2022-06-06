@@ -8,6 +8,8 @@
 //sameFrequency(3589578, 5879385) // true
 //sameFrequency(2, 222) // false
 
+//frequency counter pattern
+
 function sameFrequency(num1, num2) {
   if (num1.length !== num2.length) {
     return false;
